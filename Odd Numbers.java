@@ -11,10 +11,6 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 public class Solution {
-
-
-
-    // Complete the oddNumbers function below.
     static List<Integer> oddNumbers(int l, int r) {
         List<Integer> output = new ArrayList<Integer>();
         if (l % 2 == 0) {
